@@ -2,8 +2,20 @@
 
 support for queries api get/regist/delete
 
-# how to use
+# Getting Started
 
+## install
+composer.json
+
+```
+{
+	"require": {
+		"sakatuki/redash-api-cli": "dev-master"
+	}
+}
+```
+
+## how to use
 ```
 $queryId = 1;
 $redashApiCli = new RedashApiClient(
