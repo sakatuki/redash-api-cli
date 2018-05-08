@@ -1,0 +1,25 @@
+{
+    "name": "sakatuki/redash-api-cli",
+    "description": "redash api client",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "php": ">=7.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sakatuki/Yuki Takei",
+            "email": "der.umgekehrte.mond@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "keywords": ["redash"],
+    "autoload": {
+        "psr-4": {
+            "RedashApiCli\\": "src/RedashApiCli/",
+            "RedashApiCli\\Api\\": "src/RedashApiCli/api/"
+        }
+    },
+    "include-path": ["src/"]
+}
